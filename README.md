@@ -12,25 +12,25 @@ A simple and intuitive task management application built with Flutter.
 
 ## Screenshots
 
-### Main Screen
+### Sweeping to delete task eat brade
 <img src="screenshots/5913733658500517030_119.jpg" width="300" alt="Main Screen">
 
 ### Adding a Task
 <img src="screenshots/5913733658500517031_119.jpg" width="300" alt="Adding a Task">
 
-### Task List
+### Task List. 2 completed and 1 pending task 
 <img src="screenshots/5913733658500517032_119.jpg" width="300" alt="Task List">
 
-### Task Progress
+### Adding Task
 <img src="screenshots/5913733658500517033_119.jpg" width="300" alt="Task Progress">
 
-### Task Completion
+### Empty Task
 <img src="screenshots/5913733658500517034_119.jpg" width="300" alt="Task Completion">
 
-### Task Deletion
+### Added 1 Task
 <img src="screenshots/5913733658500517035_119.jpg" width="300" alt="Task Deletion">
 
-### Empty State
+### Two Tasks One completed one Pending 
 <img src="screenshots/5913733658500517036_119.jpg" width="300" alt="Empty State">
 
 ## Dependencies
