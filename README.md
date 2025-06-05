@@ -11,6 +11,7 @@ A simple and intuitive task management application built with Flutter.
 - Modern gradient design
 
 ## Screenshots
+<div style="background-color: #f5f5f5; padding: 20px; border-radius: 10px; margin: 20px 0;">
 
 ### Sweeping to delete task eat brade
 <img src="screenshots/5913733658500517030_119.jpg" width="300" alt="Main Screen">
@@ -32,6 +33,7 @@ A simple and intuitive task management application built with Flutter.
 
 ### Two Tasks One completed one Pending 
 <img src="screenshots/5913733658500517036_119.jpg" width="300" alt="Empty State">
+</div>
 
 ## Dependencies
 - Flutter SDK
