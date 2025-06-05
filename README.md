@@ -13,25 +13,25 @@ A simple and intuitive task management application built with Flutter.
 ## Screenshots
 
 ### Main Screen
-![Main Screen](screenshots/5913733658500517030_119.jpg)
+<img src="screenshots/5913733658500517030_119.jpg" width="300" alt="Main Screen">
 
 ### Adding a Task
-![Adding a Task](screenshots/5913733658500517031_119.jpg)
+<img src="screenshots/5913733658500517031_119.jpg" width="300" alt="Adding a Task">
 
 ### Task List
-![Task List](screenshots/5913733658500517032_119.jpg)
+<img src="screenshots/5913733658500517032_119.jpg" width="300" alt="Task List">
 
 ### Task Progress
-![Task Progress](screenshots/5913733658500517033_119.jpg)
+<img src="screenshots/5913733658500517033_119.jpg" width="300" alt="Task Progress">
 
 ### Task Completion
-![Task Completion](screenshots/5913733658500517034_119.jpg)
+<img src="screenshots/5913733658500517034_119.jpg" width="300" alt="Task Completion">
 
 ### Task Deletion
-![Task Deletion](screenshots/5913733658500517035_119.jpg)
+<img src="screenshots/5913733658500517035_119.jpg" width="300" alt="Task Deletion">
 
 ### Empty State
-![Empty State](screenshots/5913733658500517036_119.jpg)
+<img src="screenshots/5913733658500517036_119.jpg" width="300" alt="Empty State">
 
 ## Dependencies
 - Flutter SDK
