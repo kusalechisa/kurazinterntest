@@ -30,7 +30,6 @@ A simple yet powerful task management application built with Flutter, designed w
 
 - **Framework:** [Flutter](https://flutter.dev/)
 - **Language:** [Dart](https://dart.dev/)
-- **State Management:** [Provider](https://pub.dev/packages/provider)
 - **Local Storage:** [SharedPreferences](https://pub.dev/packages/shared_preferences)
 
 ## 🚀 Getting Started
