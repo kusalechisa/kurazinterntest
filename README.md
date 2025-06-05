@@ -10,11 +10,7 @@ A simple and intuitive task management application built with Flutter.
 
 ## Screenshots
 ![Task Manager App](screenshots/app_screenshot.png)
-
-## Getting Started
-1. Clone the repository
-2. Run `flutter pub get` to install dependencies
-3. Run `flutter run` to start the app
+ 
 
 ## Dependencies
 - Flutter SDK
