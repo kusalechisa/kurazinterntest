@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 import '../models/task.dart';
 import '../widgets/task_item.dart';
@@ -14,29 +14,34 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   List<Task> _tasks = [];
   int _nextId = 1;
-  final _prefs = SharedPreferences.getInstance();
+  late SharedPreferences _prefs;
 
   @override
   void initState() {
     super.initState();
+    _initPrefs();
+  }
+
+  Future<void> _initPrefs() async {
+    _prefs = await SharedPreferences.getInstance();
     _loadTasks();
   }
 
   Future<void> _loadTasks() async {
-    final prefs = await _prefs;
-    final tasksJson = prefs.getStringList('tasks') ?? [];
+    final tasksJson = _prefs.getStringList('tasks') ?? [];
     setState(() {
       _tasks = tasksJson
           .map((taskJson) => Task.fromMap(json.decode(taskJson)))
           .toList();
-      _nextId = _tasks.isEmpty ? 1 : _tasks.map((t) => t.id).reduce((a, b) => a > b ? a : b) + 1;
+      _nextId = _tasks.isEmpty
+          ? 1
+          : _tasks.map((t) => t.id).reduce((a, b) => a > b ? a : b) + 1;
     });
   }
 
   Future<void> _saveTasks() async {
-    final prefs = await _prefs;
     final tasksJson = _tasks.map((task) => json.encode(task.toMap())).toList();
-    await prefs.setStringList('tasks', tasksJson);
+    await _prefs.setStringList('tasks', tasksJson);
   }
 
   void _addTask(String title) {
@@ -124,4 +129,4 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
-} 
+}
